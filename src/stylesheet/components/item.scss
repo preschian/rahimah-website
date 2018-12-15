@@ -1,0 +1,46 @@
+.item {
+  margin-bottom: 32px;
+
+  &-figure {
+    display: block;
+    overflow: hidden;
+
+    img {
+      display: block;
+      object-fit: cover;
+      height: 240px;
+      width: 100%;
+    }
+  }
+
+  &-entry {
+    background-color: white;
+    padding: 24px;
+
+    &-category {
+      color: #ab924e;
+      font-family: 'Raleway', sans-serif;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    &-title {
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 12px;
+    }
+
+    &-meta {
+      color: #757575;
+      font-size: 12px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    &-summary {
+      color: #4b4b4b;
+      font-family: 'Raleway', sans-serif;
+    }
+  }
+}
