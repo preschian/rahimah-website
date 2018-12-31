@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="header-col">
-      <ul class="header-menu">
+      <!-- <ul class="header-menu">
         <li>
           <a href="#!">home</a>
         </li>
@@ -14,7 +14,7 @@
         <li>
           <a href="#!">contact</a>
         </li>
-      </ul>
+      </ul>-->
     </div>
 
     <div class="header-col header-col-logo">
@@ -26,48 +26,13 @@
     <div class="header-col">
       <ul class="header-menu header-menu-social">
         <li>
-          <a href="#!">
-            <i class="fa fa-facebook"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#!">
+          <a href="https://twitter.com/imawrr" target="_blank">
             <i class="fa fa-twitter"></i>
           </a>
         </li>
         <li>
-          <a href="#!">
-            <i class="fa fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#!">
-            <i class="fa fa-google-plus"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#!">
+          <a href="https://www.instagram.com/imawrr/" target="_blank">
             <i class="fa fa-instagram"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#!">
-            <i class="fa fa-youtube"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#!">
-            <i class="fa fa-skype"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#!">
-            <i class="fa fa-pinterest"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#!">
-            <i class="fa fa-rss"></i>
           </a>
         </li>
       </ul>

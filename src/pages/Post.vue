@@ -87,8 +87,13 @@ export default {
   &-content {
     padding-bottom: 40px;
 
+    p {
+      font-family: "PT Serif", Georgia, "Times New Roman", Times, serif;
+      line-height: 1.4;
+    }
+
     p:not(:first-child) {
-      margin-top: 1.5rem;
+      margin-top: 1rem;
     }
 
     a[rel*="attachment"] {
