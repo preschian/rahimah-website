@@ -6,6 +6,9 @@
   "scripts": {
     "dev": "nuxt"
   },
+  "engines": {
+    "node": "10.16.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/preschian/rahimah-website.git"
