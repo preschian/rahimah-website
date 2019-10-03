@@ -1,36 +1,36 @@
 {
-  "name": "rahimah-web-id-html",
+  "name": "rahimah-website",
   "version": "1.0.0",
-  "description": "redesign rahimah.web.id",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html --no-hmr",
-    "build": "parcel build index.html --no-source-maps"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "engines": {
+    "node": "10"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/preschian/rahimah-web-id-html.git"
+    "url": "git+https://github.com/preschian/rahimah-website.git"
   },
-  "author": "Preschian Febryantara",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/preschian/rahimah-web-id-html/issues"
+    "url": "https://github.com/preschian/rahimah-website/issues"
   },
-  "homepage": "https://gitlab.com/preschian/rahimah-web-id-html#readme",
+  "homepage": "https://github.com/preschian/rahimah-website#readme",
   "dependencies": {
-    "axios": "^0.18.0",
-    "axios-cache-adapter": "^2.1.1",
-    "axios-cache-plugin-localstorage": "0.0.1",
-    "date-fns": "^1.30.1",
-    "flexiblegs-scss": "^5.5.3",
-    "vue": "^2.5.21",
-    "vue-hot-reload-api": "^2.3.1",
-    "vue-router": "^3.0.2"
+    "@nuxtjs/axios": "^5.6.0",
+    "date-fns": "^2.4.1",
+    "flexiblegs-scss": "^5.6.0",
+    "nuxt": "^2.10.0"
   },
   "devDependencies": {
-    "@vue/component-compiler-utils": "^2.3.1",
-    "parcel-bundler": "^1.10.3",
-    "sass": "^1.15.2",
-    "vue-template-compiler": "^2.5.21"
+    "node-sass": "^4.12.0",
+    "prettier": "1.18.2",
+    "sass-loader": "^8.0.0"
   }
 }
