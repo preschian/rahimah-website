@@ -81,10 +81,6 @@ export default {
 
 <style lang="scss" scoped>
 @import "node_modules/flexiblegs-scss/flexiblegs-scss";
-.content {
-  background-color: #f2f2f2;
-  padding: 60px 32px 28px 32px;
-}
 .masonry {
   &:after {
     content: "";

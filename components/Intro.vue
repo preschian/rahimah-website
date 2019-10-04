@@ -1,9 +1,24 @@
 <template>
   <div class="intro">
-    <h2 class="intro-text">Dreamer.</h2>
-    <h3 class="intro-desc">If you can dream, you can do.</h3>
+    <h2 class="intro-text">{{text}}</h2>
+    <h3 class="intro-desc">{{desc}}</h3>
   </div>
 </template>
+
+<script>
+export default {
+  props: {
+    text: {
+      type: String,
+      default: ""
+    },
+    desc: {
+      type: String,
+      default: ""
+    }
+  }
+};
+</script>
 
 <style lang="scss" scoped>
 .intro {

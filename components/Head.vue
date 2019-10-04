@@ -19,7 +19,8 @@
 
     <div class="header-col header-col-logo">
       <h1 class="header-logo">
-        <router-link to="/">Rahimah Muslihah</router-link>
+        <!-- <router-link to="/">Rahimah Muslihah</router-link> -->
+        <a href="/">Rahimah Muslihah</a>
       </h1>
     </div>
 
