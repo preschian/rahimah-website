@@ -1,5 +1,5 @@
 module.exports = {
-  modules: ['@nuxtjs/axios'],
+  modules: ['@nuxtjs/axios', '@nuxtjs/pwa'],
   axios: {
     // proxyHeaders: false
   },
@@ -7,5 +7,12 @@ module.exports = {
   env: {
     api:
       'https://public-api.wordpress.com/rest/v1.2/sites/imawrr27.wordpress.com',
+  },
+  pwa: {
+    manifest: {
+      name: 'Rahimah Muslihah',
+      short_name: '@imawrr',
+      lang: 'id',
+    },
   },
 };
