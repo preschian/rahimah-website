@@ -1,5 +1,5 @@
 module.exports = {
-  modules: ['@nuxtjs/axios', ['@nuxtjs/pwa', { icon: false }]],
+  modules: ['@nuxtjs/axios', '@nuxtjs/pwa'],
   axios: {
     // proxyHeaders: false
   },
