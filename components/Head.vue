@@ -27,12 +27,12 @@
     <div class="header-col">
       <ul class="header-menu header-menu-social">
         <li>
-          <a href="https://twitter.com/imawrr" target="_blank">
+          <a href="https://twitter.com/imawrr" target="_blank" rel="noopener">
             <i class="fa fa-twitter"></i>
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/imawrr/" target="_blank">
+          <a href="https://www.instagram.com/imawrr/" target="_blank" rel="noopener">
             <i class="fa fa-instagram"></i>
           </a>
         </li>
