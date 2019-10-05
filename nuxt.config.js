@@ -11,6 +11,7 @@ module.exports = {
   pwa: {
     manifest: {
       name: 'Rahimah Muslihah',
+      short_name: '@imawrr',
       lang: 'id',
     },
   },
