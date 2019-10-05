@@ -2,7 +2,14 @@
   <div>
     <div class="post">
       <div class="post-container">
-        <img class="post-featured" :src="featuredMedia" v-if="featuredMedia" width="100%" />
+        <img
+          class="post-featured"
+          :src="featuredMedia"
+          v-if="featuredMedia"
+          width="100%"
+          :alt="title"
+          loading="lazy"
+        />
 
         <div class="post-entry">
           <h1 class="post-title">{{title}}</h1>
@@ -23,7 +30,7 @@ export default {
     );
 
     return {
-      featuredMedia: data.post_thumbnail && data.post_thumbnail.URL,
+      featuredMedia: data.post_thumbnail && data.post_thumbnail.URL + "?w=900",
       title: data.title,
       content: data.content
     };
@@ -37,14 +44,14 @@ export default {
   padding: 70px 0;
   &-container {
     background-color: white;
-    max-width: 1170px;
+    max-width: 900px;
     margin: 0 auto;
   }
   &-featured {
     display: block;
   }
   &-entry {
-    padding: 0 245px;
+    padding: 0 200px;
   }
   &-title {
     padding: 40px 0;
