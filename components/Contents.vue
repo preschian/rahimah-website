@@ -11,7 +11,7 @@
             :to="post.slug"
             v-if="getFeatured(post)"
           >
-            <img :src="getFeatured(post)" alt="post.title" />
+            <img :src="getFeatured(post)" alt="post.title" loading="lazy" />
           </router-link>
           <div class="item-entry">
             <!-- <a href="#!" class="item-entry-category">improving life</a> -->
@@ -73,7 +73,7 @@ export default {
       return true;
     },
     getFeatured(post) {
-      return post.post_thumbnail && post.post_thumbnail.URL;
+      return post.post_thumbnail && post.post_thumbnail.URL + "?w=480";
     }
   },
   async mounted() {
