@@ -5,8 +5,13 @@
         <div class="item-sizer"></div>
         <div class="gutter-sizer"></div>
         <div class="item" v-for="post in posts" :key="post.ID">
-          <router-link class="item-figure" :to="post.slug" v-if="getFeatured(post)">
-            <img :src="getFeatured(post)" />
+          <router-link
+            class="item-figure"
+            aria-label="post.title"
+            :to="post.slug"
+            v-if="getFeatured(post)"
+          >
+            <img :src="getFeatured(post)" alt="post.title" />
           </router-link>
           <div class="item-entry">
             <!-- <a href="#!" class="item-entry-category">improving life</a> -->
