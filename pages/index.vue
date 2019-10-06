@@ -48,6 +48,11 @@ export default {
     prevPage() {
       return `?page=${parseInt(this.page) - 1}`;
     }
+  },
+  head() {
+    return {
+      title: this.text + " - " + this.desc,
+    }
   }
 };
 </script>
