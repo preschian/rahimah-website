@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Raleway');
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #f2f2f2;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.post {
+  font-family: "PT Serif",Georgia,"Times New Roman",Times,serif;
+}
+
+.post p {
+  margin-top: 1rem;
+}
