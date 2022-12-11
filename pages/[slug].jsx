@@ -18,12 +18,12 @@ export default function Post({ featuredMedia, title, content }) {
   return (
     <div>
       <div className="bg-white">
-        <div className="container py-16">
+        <div className="container py-8 lg:py-16">
           <Header />
         </div>
       </div>
 
-      <div className="container py-16" style={{ maxWidth: '900px' }}>
+      <div className="container py-8 lg:py-16" style={{ maxWidth: '900px' }}>
         <div className="bg-white">
           {featuredMedia && <picture>
             <img src={featuredMedia} alt={title} className='block w-full' />

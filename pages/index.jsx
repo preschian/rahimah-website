@@ -38,16 +38,16 @@ export default function Home({ posts, text, desc, page }) {
     </Head>
 
     <div className="bg-white">
-      <div className="container py-16">
+      <div className="container py-8 lg:py-16">
         <Header />
 
-        <p className='text-6xl font-bold text-center mt-20'>{text}</p>
+        <p className='text-3xl lg:text-6xl font-bold text-center mt-10 lg:mt-20'>{text}</p>
         <p className='text-lg text-center raleway'>{desc}</p>
       </div>
     </div>
 
-    <div className="container py-16">
-      <div className="columns-3 gap-8 space-y-8">
+    <div className="container py-8 lg:py-16">
+      <div className="columns-1 lg:columns-3 gap-8 space-y-8">
         {posts.map((post) => {
           const cssCenter = !featuredImage(post) && "flex items-center"
           return <Link key={post.slug} className={`bg-white block aspect-square ${cssCenter}`} href={post.slug}>
