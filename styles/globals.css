@@ -12,3 +12,11 @@ body {
 .raleway {
   font-family: 'Raleway', sans-serif;
 }
+
+.post {
+  font-family: "PT Serif",Georgia,"Times New Roman",Times,serif;
+}
+
+.post p {
+  margin-top: 1rem;
+}
